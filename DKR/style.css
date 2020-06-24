@@ -1,0 +1,301 @@
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+body {
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+
+#navbar {
+    background-color: #262829;
+}
+
+#menu a:active {
+    color: #ffac55; 
+}
+
+#menu a {
+    color: gray;
+}
+a { outline: 0; }
+
+
+.layoutspacing {
+    padding-left: 256px;
+    padding-right: 256px;
+}
+
+#banner {
+    height: 856px;
+    overflow: hidden;
+    background-image: url('images/banner/bannerGirl.png')
+}
+
+#industrysection
+{
+    min-height: 562px;
+    width: 462px;
+    background-color: black;
+}
+
+.industryNextButton {
+    cursor: pointer;
+}
+
+.industryCard {
+    color: white;
+    background-color: #2ba7ff;
+}
+
+.no-padding 
+{
+    padding: 0px !important;
+}
+
+#about-us {
+    height: 408px;
+    
+}
+
+#our-steps {
+    background-color: #e7eff1;
+}
+
+.content-padding {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.our-steps-pr {
+    padding-right: 128px ;
+}
+
+#our-steps .col {
+    padding-left: 0px;
+}
+
+#our-steps-main-row {
+    max-height: 506px;
+    overflow: hidden;
+}
+
+.fp-yellow-shape
+{
+    position: absolute;
+    top:16px;
+    margin-left:16px;
+    max-width: 113px;
+    max-height: 36px;
+}
+
+.fp-blue-shape {
+    position: absolute;
+    bottom:0px;
+    margin-left:-2px;
+    /* left:0px; */
+    background: url('images/featured-projects/blue_shape.png');
+}
+
+.tag-button {
+    color:white; background-image: url('images/featured-projects/tag_button.png'); width:113px; height: 36px; 
+    cursor: pointer;
+}
+
+
+
+#testimonials
+{
+    color: white;
+    background-color: #03b6e7;
+}
+
+#testimonials img[src*=client] {
+    border-radius: 36px;
+}
+
+
+#our-blog {
+    background-color: #e7eff1;
+    padding-left: 256px;
+}
+
+#our-blog .tag-button {
+     width:143px; height: 36px; 
+    color:black;
+}
+
+.tag-black {
+    background-image: url('images/our-blog/tag_button_black.png');
+    cursor: pointer;
+}
+
+.tag-yellow {
+    background-image: url('images/our-blog/tab_button_yellow.png');
+    cursor: pointer;
+}
+
+.contact-border {
+    border: 1px solid #dddddd;
+}
+
+#footer {
+    background-color: #262829;
+
+    /* border-bottom: 1px #505253 solid; */
+}
+
+.text-white {
+    color:white;
+}
+
+.text-gray {
+    color:gray;
+}
+
+#input-email {
+    border-radius: 36px;
+    background-color: #323334;
+    border: 1px solid #323334;
+    padding-left: 34px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    min-width: 322px;
+}
+
+#input-submit {
+    position: relative;
+    right: 64px;
+    border-radius: 36px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    min-width: 128px;
+    bottom: 2px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+#footer a {
+    color: gray;
+}
+
+@media (max-width: 375px) {
+.layoutspacing {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#logo-consult {
+    margin-left: 24px;
+}
+
+#industrysection .span {
+    word-break: break-all;
+}
+
+#consulting-image-block {
+    display: none;
+}
+
+.content-padding {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+#about-us {
+    padding: 16px;
+}
+
+.our-steps-pr {
+    padding-right: unset;
+}
+
+#our-steps .col {
+    padding-left: 16px; 
+}
+
+#our-steps {
+    padding: 16px;
+}
+
+#our-steps-main-row {
+    max-height: unset;
+    min-height: 506px;
+}
+
+#our-blog  {
+    padding-left: 16px;
+}
+
+#img-blog {
+    display: none;
+}
+
+#input-submit {
+    right: unset;
+    margin-top: 16px;
+}
+
+#testimonials {
+    padding: 16px;
+}
+
+#contact-us {
+    padding: 16px;
+}
+
+#footer {
+    padding: 16px;
+}
+
+.contact-border {
+    margin: 0px;
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    #our-steps-main-row {
+        max-height: unset;
+        min-height: 506px;
+    }
+
+    #our-blog {
+        padding-right:256px;
+    }
+
+    #consulting-image-block {
+        display: none
+    }
+}
+
+@media (max-width: 992px) and (min-width: 376px) {
+    .layoutspacing {
+        padding-left: 128px;
+        padding-right: 128px;
+    }
+
+    #our-steps-main-row {
+        max-height: unset;
+        min-height: 506px;
+    }
+
+    #our-blog {
+        padding-right:128px;
+    }
+
+    #consulting-image-block {
+        display: none
+    }
+    
+    /* #logo-consult {
+        margin-left: 24px;
+    } */
+    
+    #industrysection .span {
+        word-break: break-all;
+    }
+    
+    }
